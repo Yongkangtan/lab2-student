@@ -2,9 +2,9 @@
 
 In this assignment, we will use threads and synchronization to
 implement the Producer Consumer and the Bounded Buffer problem studied
-in class. This project assignment needs to be completed in C/C++ using the pthreads
-library with the overall goal of exposing you to threading and
-synchronization concepts.
+in class. This project assignment needs to be completed in C/C++ using
+the pthreads library with the overall goal of exposing you to
+threading and synchronization concepts.
 
 # Request Scheduling Using Threads and Synchronization
 
@@ -66,6 +66,9 @@ to a file called "output.txt":
   Producer #i, time = current time, producing data item #j, item value=foo
   Consumer #k, time = current time, consuming data item with value=foo
 ```
+
+Make sure you delete the "output.txt" file before each run. If you do
+not do this you may fail some tests.
 
 # Helpful References
 
